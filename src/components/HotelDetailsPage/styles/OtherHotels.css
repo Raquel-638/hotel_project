@@ -1,0 +1,16 @@
+.hotels__name {
+    text-align: center;
+    font-weight: bold;
+
+    .hotels__name-city{
+        color: #ea4049;
+    }
+
+}
+.hotels__container {
+    box-sizing: border-box;
+    margin: 1em;
+    gap: 2em;
+    margin: 2em;
+    flex-wrap: wrap;
+}

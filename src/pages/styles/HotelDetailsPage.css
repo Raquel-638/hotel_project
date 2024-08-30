@@ -1,0 +1,48 @@
+.details {
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 8em 1.5em;
+
+    .details__title {
+        text-align: center;
+        display: block;
+    }
+}
+
+.details__hr {
+    padding: 1em;
+    border: none;
+}
+
+.details__container-img {
+    columns: 2 300px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.details__name {
+    font-weight: 800;
+}
+
+.details__logo {
+    font-size: 1.5em;
+	display: block;
+}
+
+.details__address {
+    font-weight: 500;
+}
+
+.details__description {
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+.details__form-reservation {
+    text-align: center;
+}
+
+.details__reservation{
+    color: #ea4049;
+}
+

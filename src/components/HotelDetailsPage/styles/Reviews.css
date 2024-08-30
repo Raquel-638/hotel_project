@@ -1,0 +1,29 @@
+.reviews__title{
+    padding: 1em;
+    color: #ea4049;
+}
+
+.reviews__name{
+    font-weight: 600;
+    gap: 2em;
+}
+.reviews__star{
+    color: #ea4049e0;
+}
+.reviews__comment{
+    font-style: oblique;
+    font-weight: 400;
+}
+.reviews__btn{
+	margin: 0 auto;
+	padding: 0.6em;
+	border-radius: 0.8em;
+	background-color: #ea4959b7;
+	color: #ffffffe0;
+	font-weight: 400;
+	filter: grayscale(0.3);
+	transition: filter 0.5s ease;
+	&:hover {
+		filter: grayscale(0);
+	}
+}
